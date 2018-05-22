@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">MathPuzzle</string>
     <string name="choose_level">Please choose your level:</string>
-    <string name="level_1">Beginner</string>
+    <string name="beginner">Beginner</string>
     <string name="level_2">Intermediate</string>
     <string name="level_3">Advanced</string>
+    <string name="contentDescription">img_1</string>
 </resources>
