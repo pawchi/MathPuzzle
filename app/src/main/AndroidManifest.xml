@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Beginner"></activity>
+        <activity android:name=".Intermediate"></activity>
+        <activity android:name=".Advanced"></activity>
+
     </application>
 
 </manifest>
