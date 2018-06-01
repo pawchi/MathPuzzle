@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button beginner = (Button)findViewById(R.id.beginner);
         Button intermed = (Button) findViewById(R.id.intermediate);
+        Button recyclerView = (Button) findViewById(R.id.activity_recyclerview);
 
         beginner.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent int2 = new Intent(getApplicationContext(),Intermediate.class);
                 startActivity(int2);
+            }
+        });
+
+        recyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int3 = new Intent(getApplicationContext(),NavigationRecyclerView.class);
+                startActivity(int3);
             }
         });
     }
